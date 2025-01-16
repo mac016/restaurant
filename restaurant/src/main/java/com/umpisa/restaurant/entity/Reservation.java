@@ -48,7 +48,7 @@ public class Reservation {
     @JsonFormat(shape = JsonFormat.Shape.NUMBER_INT)
     private Integer guest_count;
 
-    //My IDE can't detect lomok. Been stuck for many hours
+    //My IDE can't detect lombok. Been stuck for many hours
     public void setStatus(Integer status) {
         this.status = status;
     }
